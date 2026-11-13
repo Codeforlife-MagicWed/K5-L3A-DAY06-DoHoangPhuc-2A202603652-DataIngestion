@@ -1,0 +1,69 @@
+{
+  "source_id": "openstax-python-2024",
+  "title": "Introduction to Python Programming (Chapters 1–2: Statements and Expressions)",
+  "authors": [
+    "Udayan Das",
+    "Aubrey Lawson",
+    "Chris Mayfield",
+    "Narges Norouzi"
+  ],
+  "publisher": "OpenStax, Rice University",
+  "publication_year": 2024,
+  "copyright_year": 2026,
+  "isbn_13": "978-1-961584-45-7",
+  "version_or_snapshot": "Digital PDF edition (WEB), ©2026 Rice University",
+  "source_path_or_url": "data/Introduction_to_Python_Programming-WEB.pdf",
+  "origin_url": "https://openstax.org/details/books/introduction-python-programming",
+  "license_or_permission": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). Attribution: Access for free at openstax.org.",
+  "accessed_at": "2026-11-13",
+  "total_physical_pages_in_pdf": 397,
+  "selected_physical_page_range": [17, 76],
+  "book_page_offset_rule": "book_page = pdf_page - 10 (PDF pages 17–76 correspond to book pages 7–66)",
+  "excluded_pages_in_range": [
+    {
+      "pdf_page": 46,
+      "book_page": 36,
+      "reason": "Blank separator page at the end of Chapter 1 containing only running header ('36 1 • Statements') and footer ('Access for free at openstax.org')."
+    }
+  ],
+  "excluded_front_matter_pages": "PDF pages 1–16 (Cover, Title, Copyright, Table of Contents, and Preface)",
+  "valid_content_page_count": 59,
+  "valid_page_ids": [
+    17, 18, 19, 20, 21, 22, 23, 24, 25, 26,
+    27, 28, 29, 30, 31, 32, 33, 34, 35, 36,
+    37, 38, 39, 40, 41, 42, 43, 44, 45, 47,
+    48, 49, 50, 51, 52, 53, 54, 55, 56, 57,
+    58, 59, 60, 61, 62, 63, 64, 65, 66, 67,
+    68, 69, 70, 71, 72, 73, 74, 75, 76
+  ],
+  "page_counting_rule": "Count 1-indexed physical PDF pages within the selected range [17, 76] that contain substantive textbook content after Unicode normalization (NFC) and stripping running headers/footers. Exclude cover, TOC, preface (pages 1–16), blank page 46 (only 49 chars of running header/footer), and chapters 3–14 (pages 77–397).",
+  "character_count_summary": {
+    "total_normalized_chars": 87783,
+    "valid_content_pages": 59,
+    "note": "Exact character count measured across 59 valid pages after NFC normalization and header/footer stripping (blank page 46 excluded); logged in results/metrics_summary.json."
+  },
+  "chapters": [
+    {
+      "chapter_id": "ch1_statements",
+      "title": "1 Statements",
+      "pdf_page_start": 17,
+      "pdf_page_end": 45,
+      "valid_pages": 29
+    },
+    {
+      "chapter_id": "ch2_expressions",
+      "title": "2 Expressions",
+      "pdf_page_start": 47,
+      "pdf_page_end": 76,
+      "valid_pages": 30
+    }
+  ],
+  "metadata_schema": {
+    "document_id": "string — fixed identifier 'openstax-python-2024'",
+    "source": "string — relative file path 'data/Introduction_to_Python_Programming-WEB.pdf'",
+    "page": "int — 1-indexed physical PDF page number (17..45, 47..76)",
+    "book_page": "int — textbook page number printed in header (page - 10)",
+    "chapter": "string — 'ch1_statements' for PDF pages 17–45, 'ch2_expressions' for PDF pages 47–76 (used for metadata filtering in Strategy C)",
+    "section": "string — section identifier detected from page headings (e.g. '1.1', '1.2', ..., '2.9')"
+  }
+}
